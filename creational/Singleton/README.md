@@ -1,6 +1,6 @@
 # Singleton Pattern
 
-This project is an example about Singleton creational pattern. This implementation is the lazy way because the instance of the singleton is only created when you invoked the public method **getInstance()**.
+This project is an example about Singleton creational pattern. This implementation is the lazy way because the instance of the singleton is only created when you invoke the public method **getInstance()**.
 
 
 ## GoF - Creational Patterns
@@ -13,4 +13,4 @@ This project is an example about Singleton creational pattern. This implementati
 
 ### How use this project
 
-Clone the repo, watch the code and execute Singleton.java
+Clone the repo, review the code and execute Singleton.java
