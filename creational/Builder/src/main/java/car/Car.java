@@ -31,7 +31,12 @@ public class Car {
     }
 
     public static class CarBuilder {
-        private Car car = new Car();
+        private Car car;
+
+        public CarBuilder builder(){
+            car = new Car();
+            return this;
+        }
 
         public CarBuilder setWheels(Integer wheels){
             car.setWheels(wheels);
